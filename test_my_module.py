@@ -14,3 +14,6 @@ def test_twosum():
 def test_getValue():
     c = m.Chooser([1,2,3])
     assert c.get_value() in [1,2,3]
+
+def test_add():
+    assert m.add(3,5) == 8

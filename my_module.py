@@ -33,6 +33,9 @@ def twoSum(nums, target):
         
         numAndIndex[num] = i 
 
+def add(x,y):
+    return x + y
+
 if __name__ == "__main__":
     function = np.sin
     x_values = np.linspace(0,2*np.pi,20)
